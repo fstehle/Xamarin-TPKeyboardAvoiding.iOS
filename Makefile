@@ -16,6 +16,9 @@ PODS_PROJECT=$(PODS_PROJECT_ROOT)/Pods.xcodeproj
 PODS_TARGET=Pods-$(POD_NAME)
 
 all: $(PROJECT).dll
+	
+package:
+	nuget pack Package.nuspec
 
 $(PODS_PROJECT):
 	pod install --no-integrate

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TPKeyboardAvoiding</id>
+    <version>1.2.3</version>
+    <authors>TPKeyboardAvoiding</authors>
+    <description>
+      A drop-in universal solution for moving text fields out of the way of the keyboard in iOS
+    </description>
+  </metadata>
+  <files>
+    <file src="TPKeyboardAvoiding.dll" target="lib/MonoTouch" />
+  </files>
+</package>

@@ -5,3 +5,4 @@ Pods/
 *.dll
 *.a
 *.userprefs
+*.nupkg
