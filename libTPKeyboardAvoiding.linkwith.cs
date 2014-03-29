@@ -1,0 +1,3 @@
+using MonoTouch.ObjCRuntime;
+
+[assembly: LinkWith ("libTPKeyboardAvoiding.a", LinkTarget.Simulator | LinkTarget.ArmV7, ForceLoad = true)]
