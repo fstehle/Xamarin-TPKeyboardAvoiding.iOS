@@ -5,6 +5,6 @@ DEPENDENCIES:
   - TPKeyboardAvoiding (~> 1.2.3)
 
 SPEC CHECKSUMS:
-  TPKeyboardAvoiding: 17995aaa6db26ac2a9fa8714a86509c5888f0392
+  TPKeyboardAvoiding: ab1760b9813202b5a570a2cef4b4404ef36b50c5
 
-COCOAPODS: 0.30.0
+COCOAPODS: 0.36.4
