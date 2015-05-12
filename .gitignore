@@ -6,3 +6,5 @@ Pods/
 *.a
 *.userprefs
 *.nupkg
+
+TPKeyboardAvoiding/build/

@@ -4,6 +4,7 @@ using Foundation;
 namespace TPKeyboardAvoiding
 {
     [BaseType (typeof(UIScrollView))]
+	[Protocol]
     public partial interface TPKeyboardAvoidingScrollView
     {
         [Export ("contentSizeToFit")]
