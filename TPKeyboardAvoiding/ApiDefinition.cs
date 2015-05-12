@@ -1,9 +1,10 @@
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
+using UIKit;
+using Foundation;
 
 namespace TPKeyboardAvoiding
 {
     [BaseType (typeof(UIScrollView))]
+	[Protocol]
     public partial interface TPKeyboardAvoidingScrollView
     {
         [Export ("contentSizeToFit")]
